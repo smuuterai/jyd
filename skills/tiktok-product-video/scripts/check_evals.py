@@ -43,10 +43,14 @@ def main() -> int:
     skill_path = ROOT / "SKILL.md"
     readme_path = ROOT / "README.md"
     evals_path = ROOT / "evals" / "evals.json"
+    examples_dir = ROOT / "examples"
+    golden_example_path = examples_dir / "pet-grooming-brush-brazil.md"
 
     check(skill_path.exists(), "SKILL.md exists at skill root")
     check(readme_path.exists(), "README.md exists at skill root")
     check(evals_path.exists(), "evals/evals.json exists")
+    check(examples_dir.exists(), "examples/ directory exists")
+    check(golden_example_path.exists(), "golden example exists: examples/pet-grooming-brush-brazil.md")
 
     if not skill_path.exists():
         fail("cannot continue without SKILL.md")
@@ -65,6 +69,7 @@ def main() -> int:
         check(term in skill_text, f"SKILL.md contains workflow term: {term}")
 
     required_files = [
+        golden_example_path,
         ROOT / "references" / "controlled-generation-framework.md",
         ROOT / "references" / "failure-modes-cheatsheet.md",
         ROOT / "references" / "video-deconstruction.md",
@@ -90,6 +95,16 @@ def main() -> int:
                 check(bool(item.get("prompt")), f"{prefix} has prompt")
                 check(bool(item.get("expected_output")), f"{prefix} has expected_output")
                 check(isinstance(item.get("files", []), list), f"{prefix} files is a list")
+            linked_files = {
+                file_name
+                for item in evals
+                for file_name in item.get("files", [])
+                if isinstance(file_name, str)
+            }
+            check(
+                "examples/pet-grooming-brush-brazil.md" in linked_files,
+                "evals link to the golden example",
+            )
 
     check(shutil.which("ffmpeg") is not None, "ffmpeg available for video_deconstruct.py", warning=True)
     check(shutil.which("ffprobe") is not None, "ffprobe available for video_deconstruct.py", warning=True)
@@ -101,4 +116,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

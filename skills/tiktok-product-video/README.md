@@ -4,7 +4,7 @@
 
 **这个 Skill 面向 TikTok / Reels / 抖音 / 视频号的带货短视频策划：痒点、脚本、即梦与 Veo 分镜提示词、本地化字幕、剪辑执行表、合规提醒，一次交付。**
 
-[快速开始](#快速开始) · [触发方式](#触发方式) · [它会交付什么](#它会交付什么) · [文件结构](#文件结构) · [验证](#验证)
+[效果示例](#效果示例) · [快速开始](#快速开始) · [触发方式](#触发方式) · [它会交付什么](#它会交付什么) · [文件结构](#文件结构) · [验证](#验证)
 
 ---
 
@@ -26,6 +26,20 @@
 | 本地化文案 | 目标市场语言的钩子字幕、卖点字幕、CTA、话题标签、BGM 建议 |
 | 后期剪辑 | 切点转场表、音乐 cue 表、字幕逐条表、导出参数 |
 | 参考视频拆解 | 抽帧/音频预处理脚本 + 七段拆解模板 + 仿写模板 |
+
+---
+
+## 效果示例
+
+输入一句：
+
+```text
+我想在巴西 TikTok 上卖一款宠物开结梳（蓝灰色双排不锈钢刀片、浮动刀头、防滑手柄，约17.5cm），用即梦做一条15秒的视频，帮我出一套完整方案。
+```
+
+输出会像这个黄金样例：[Brazil TikTok Pet Grooming Brush](examples/pet-grooming-brush-brazil.md)。
+
+它展示了完整交付形状：路线选择、痒点与卖点、15 秒脚本、即梦 / Veo 分镜提示词、巴葡字幕、剪辑执行表和合规提醒。
 
 ---
 
@@ -98,6 +112,8 @@ tiktok-product-video/
   SKILL.md                                  # Agent 读取的主工作流
   README.md                                 # 给人看的安装与能力说明
   evals/evals.json                          # 三条典型验收 prompt
+  examples/
+    pet-grooming-brush-brazil.md            # eval #1 的黄金样例输出
   references/
     controlled-generation-framework.md      # 受控生成六维总纲
     failure-modes-cheatsheet.md             # 一页翻车速查表
@@ -119,7 +135,7 @@ tiktok-product-video/
 python scripts/check_evals.py
 ```
 
-再用 `evals/evals.json` 里的 3 条 prompt 做人工回归。合格输出至少要包含：
+再用 `evals/evals.json` 里的 3 条 prompt 做人工回归。第一条 prompt 的输出形状可对照 `examples/pet-grooming-brush-brazil.md`。合格输出至少要包含：
 
 - 痒点/卖点、脚本结构、分镜提示词、本地化文案、剪辑执行表、合规提醒；
 - 分镜提示词明确使用首帧/首尾帧/结果静图来处理累积型效果；
@@ -134,4 +150,3 @@ python scripts/check_evals.py
 ## 致谢
 
 方法论来自多轮真实 AI 视频生产踩坑沉淀，并参考 Seedance / Veo / CapCut / 剪映等工具的公开能力与限制。外部案例库只作为灵感弹药，最终执行规则以本仓库的受控生成框架和翻车速查表为准。
-
