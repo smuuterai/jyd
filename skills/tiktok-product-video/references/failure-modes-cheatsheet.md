@@ -1,7 +1,7 @@
 # 翻车速查表（开拍前扫一遍 · 一页索引）
 
 > 这是绝活的总目录。每条 = 一个实测翻车现象 → 一句话对策 → 去哪条细看。
-> 出任何分镜前过一遍；命中哪条就翻到 SKILL.md 对应小节。根因总纲见 `controlled-generation-framework.md`。
+> 出任何分镜前过一遍；命中哪条就翻到 skill.md 对应小节。根因总纲见 `controlled-generation-framework.md`。
 
 ## A. 产品 / 主体保真
 
