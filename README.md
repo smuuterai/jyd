@@ -113,7 +113,8 @@ jyd/                                        # 仓库根目录
   README.md                                 # 给人看的安装与能力说明
   evals/evals.json                          # 三条典型验收 prompt
   examples/
-    pet-grooming-brush-brazil.md            # eval #1 的黄金样例输出
+    pet-grooming-brush-brazil.md            # 路线 B 逐镜 · eval #1 黄金样例
+    basketball-socks-us-tiktok.md           # 路线 A 整片演绎 · 一次性出片实战案例
   references/
     controlled-generation-framework.md      # 受控生成六维总纲
     failure-modes-cheatsheet.md             # 一页翻车速查表
