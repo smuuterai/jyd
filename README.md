@@ -48,7 +48,7 @@
 本地使用时，确保目录结构里有根文件 `SKILL.md`：
 
 ```text
-tiktok-product-video/
+jyd/                # 仓库根目录
   SKILL.md
   README.md
   evals/evals.json
@@ -56,10 +56,10 @@ tiktok-product-video/
   scripts/
 ```
 
-发布到 GitHub 后，一行安装命令应类似：
+发布到 GitHub 后，一行安装命令：
 
 ```bash
-npx skills add <owner>/tiktok-product-video
+npx skills add smuuterai/jyd
 ```
 
 装完后对 Agent 说：
@@ -108,7 +108,7 @@ npx skills add <owner>/tiktok-product-video
 ## 文件结构
 
 ```text
-tiktok-product-video/
+jyd/                                        # 仓库根目录
   SKILL.md                                  # Agent 读取的主工作流
   README.md                                 # 给人看的安装与能力说明
   evals/evals.json                          # 三条典型验收 prompt
