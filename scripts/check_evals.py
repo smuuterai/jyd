@@ -75,6 +75,14 @@ def main() -> int:
         ROOT / "references" / "video-deconstruction.md",
         ROOT / "references" / "seedance2-multimodal.md",
         ROOT / "references" / "working-notes.md",
+        ROOT / "references" / "subject-and-realism.md",
+        ROOT / "references" / "cover-and-poster.md",
+        ROOT / "references" / "voiceover-srt.md",
+        ROOT / "references" / "testimonial-ugc.md",
+        ROOT / "references" / "long-form-video.md",
+        ROOT / "references" / "hook-library.md",
+        ROOT / "references" / "ai-avatar.md",
+        ROOT / "references" / "luxury-aesthetic.md",
         ROOT / "scripts" / "video_deconstruct.py",
     ]
     for path in required_files:

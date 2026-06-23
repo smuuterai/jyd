@@ -121,6 +121,14 @@ jyd/                                        # 仓库根目录
     seedance2-multimodal.md                 # Seedance 2.0 多模态入口说明
     video-deconstruction.md                 # 参考视频拆解与仿写流程
     working-notes.md                        # 协作规约与外部资源索引
+    subject-and-realism.md                  # 真人/穿戴/垂类/双人主体工艺
+    cover-and-poster.md                     # 高审美封面/海报/详情图
+    voiceover-srt.md                        # 口播 SRT 声画同步
+    testimonial-ugc.md                      # UGC 证言/口碑测评带货
+    long-form-video.md                      # 30–120s 长广告多段拼接
+    hook-library.md                         # 12 种钩子模式 + 钩子运镜/音效
+    ai-avatar.md                            # 数字人带货 · 防恐怖谷
+    luxury-aesthetic.md                     # 高端/美妆/奢品克制美学
   scripts/
     video_deconstruct.py                    # 抽帧、抽音频、转写、网格图预处理
     check_evals.py                          # 静态结构与 eval 样例体检
