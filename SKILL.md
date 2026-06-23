@@ -16,7 +16,7 @@ description: >-
 > - **协作规约 + 资源索引**：`references/working-notes.md`——怎么跟用户配合（先确认再出全量／弹路线选项／写全写细／无缝偏好等）+ 外部案例库网址。换电脑只拷本技能文件夹时，这份保证"习惯和指针不丢"。
 > - **流程主干**：第 0 步收集输入 → 1 痒点卖点 → 2 脚本结构 → 3 分镜提示词(核心) → 4 本地化文案 → 5 合规 → 后期剪辑执行表 → 输出模板。
 > - **决策前置**：「先选生成路线」「先定画风轨道」「第 0 步先确认再出全量」三道闸在主干之前，**不可跳**。
-> - **参考文件**：`controlled-generation-framework.md`(六维根因总纲，剧情类必读)｜`failure-modes-cheatsheet.md`(一页速查)｜`video-deconstruction.md`(模式 B 拆解)｜`seedance2-multimodal.md`(即梦 @引用新入口)｜`subject-and-realism.md`(真人/穿戴/垂类/双人主体工艺)｜`cover-and-poster.md`(高审美封面海报)｜`voiceover-srt.md`(口播 SRT 声画同步)。
+> - **参考文件**：`controlled-generation-framework.md`(六维根因总纲，剧情类必读)｜`failure-modes-cheatsheet.md`(一页速查)｜`video-deconstruction.md`(模式 B 拆解)｜`seedance2-multimodal.md`(即梦 @引用新入口)｜`subject-and-realism.md`(真人/穿戴/垂类/双人主体工艺)｜`cover-and-poster.md`(高审美封面海报)｜`voiceover-srt.md`(口播 SRT 声画同步)｜`testimonial-ugc.md`(UGC 证言/口碑测评带货)。
 
 ---
 
@@ -530,4 +530,4 @@ description: >-
 [2–4 条，含目标市场本地化]
 ```
 
-完成后，主动问用户要不要：把某条分镜继续细化成"图生视频运动提示词"、生成更多风格变体（痒点款 / 搞笑款 / 测评款）、或换个目标市场再出一版文案。
+完成后，主动问用户要不要：把某条分镜继续细化成"图生视频运动提示词"、生成更多风格变体（痒点款 / 搞笑款 / 测评款——测评 / UGC 证言款见 `references/testimonial-ugc.md`）、或换个目标市场再出一版文案。
