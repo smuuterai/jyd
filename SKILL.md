@@ -16,7 +16,7 @@ description: >-
 > - **协作规约 + 资源索引**：`references/working-notes.md`——怎么跟用户配合（先确认再出全量／弹路线选项／写全写细／无缝偏好等）+ 外部案例库网址。换电脑只拷本技能文件夹时，这份保证"习惯和指针不丢"。
 > - **流程主干**：第 0 步收集输入 → 1 痒点卖点 → 2 脚本结构 → 3 分镜提示词(核心) → 4 本地化文案 → 5 合规 → 后期剪辑执行表 → 输出模板。
 > - **决策前置**：「先选生成路线」「先定画风轨道」「第 0 步先确认再出全量」三道闸在主干之前，**不可跳**。
-> - **参考文件**：`controlled-generation-framework.md`(六维根因总纲，剧情类必读)｜`failure-modes-cheatsheet.md`(一页速查)｜`video-deconstruction.md`(模式 B 拆解)｜`seedance2-multimodal.md`(即梦 @引用新入口)｜`subject-and-realism.md`(真人/穿戴/垂类/双人主体工艺)｜`cover-and-poster.md`(高审美封面海报)｜`voiceover-srt.md`(口播 SRT 声画同步)｜`testimonial-ugc.md`(UGC 证言/口碑测评带货)｜`long-form-video.md`(30–120s 长广告多段拼接)｜`hook-library.md`(12 种钩子模式+钩子运镜/音效)。
+> - **参考文件**：`controlled-generation-framework.md`(六维根因总纲，剧情类必读)｜`failure-modes-cheatsheet.md`(一页速查)｜`video-deconstruction.md`(模式 B 拆解)｜`seedance2-multimodal.md`(即梦 @引用新入口)｜`subject-and-realism.md`(真人/穿戴/垂类/双人主体工艺)｜`cover-and-poster.md`(高审美封面海报)｜`voiceover-srt.md`(口播 SRT 声画同步)｜`testimonial-ugc.md`(UGC 证言/口碑测评带货)｜`long-form-video.md`(30–120s 长广告多段拼接)｜`hook-library.md`(12 种钩子模式+钩子运镜/音效)｜`ai-avatar.md`(数字人带货·防恐怖谷)｜`luxury-aesthetic.md`(高端/美妆/奢品克制美学)。
 
 ---
 
@@ -311,6 +311,7 @@ description: >-
 ### 3.5 分镜提示词输出格式（要详细到即梦无法跑偏）
 
 **提示词太简单 = 即梦自由发挥 = 跑偏。** 每条都要把下面要素写全，一个镜头一段、整段可复制；并在镜头后附「🔗 衔接规格」（见 3.3）。
+> **提示词字数甜区：约 120–250 字/条**——太短＝模型自由发挥出 generic；太长＝模型忽略后半段指令。写满要素但别注水。
 
 **⚠️ 提示词全程"对模型说话"，不对用户说话（实测踩坑，所有提示词通用）**：提示词是给模型的**目标画面描述**，不是给用户的说明 / 叮嘱 / 谈判。两条铁规——
 > ① **删掉一切元话术**：模型读不懂"擅自 / 关键 / 让人一眼看出 / 不许加速 / 我特意"这类**说给人听的话**（实测写过"颜色绝不擅自改成米白"——"擅自"纯是对用户说的，模型无视）。要约束就写**画面事实**（"底面与袜身同为黑色"），不写意图旁白。
