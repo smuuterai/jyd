@@ -16,7 +16,7 @@ description: >-
 > - **协作规约 + 资源索引**：`references/working-notes.md`——怎么跟用户配合（先确认再出全量／弹路线选项／写全写细／无缝偏好等）+ 外部案例库网址。换电脑只拷本技能文件夹时，这份保证"习惯和指针不丢"。
 > - **流程主干**：第 0 步收集输入 → 1 痒点卖点 → 2 脚本结构 → 3 分镜提示词(核心) → 4 本地化文案 → 5 合规 → 后期剪辑执行表 → 输出模板。
 > - **决策前置**：「先选生成路线」「先定画风轨道」「第 0 步先确认再出全量」三道闸在主干之前，**不可跳**。
-> - **参考文件**：`controlled-generation-framework.md`(六维根因总纲，剧情类必读)｜`failure-modes-cheatsheet.md`(一页速查)｜`video-deconstruction.md`(模式 B 拆解)｜`seedance2-multimodal.md`(即梦 @引用新入口)｜`subject-and-realism.md`(真人/穿戴/垂类/双人主体工艺)｜`cover-and-poster.md`(高审美封面海报)｜`voiceover-srt.md`(口播 SRT 声画同步)｜`testimonial-ugc.md`(UGC 证言/口碑测评带货)。
+> - **参考文件**：`controlled-generation-framework.md`(六维根因总纲，剧情类必读)｜`failure-modes-cheatsheet.md`(一页速查)｜`video-deconstruction.md`(模式 B 拆解)｜`seedance2-multimodal.md`(即梦 @引用新入口)｜`subject-and-realism.md`(真人/穿戴/垂类/双人主体工艺)｜`cover-and-poster.md`(高审美封面海报)｜`voiceover-srt.md`(口播 SRT 声画同步)｜`testimonial-ugc.md`(UGC 证言/口碑测评带货)｜`long-form-video.md`(30–120s 长广告多段拼接)。
 
 ---
 
@@ -153,6 +153,8 @@ description: >-
 **调时长**：缩到 9s 就砍「转折」；放到 30s 就在「核心爽点」加多一个卖点演示。**核心爽点段永远不能省。**
 
 **完播率 + 结尾可循环（平台算法 craft）**：完播率是 TikTok/Reels 最重的权重之一——80%+ 完播能拿约 2–3x 推流。所以①钩子前置（前 2 秒，已在做）②宁短勿长（能 12–15s 讲完别拖）③**收尾帧尽量能接回开头首帧**（无缝循环，观众多刷一遍＝完播率直接翻倍）。
+
+> **做完整长广告（30–120s，多段拼接、突破单次 15s 上限）→ `references/long-form-video.md`**：资产前置（人物/场景/产品/音色统一）、三种分镜生成法、尾帧衔接踩坑、旁白整段生成等长视频专属流程。本主流程只管 ≤15s 短片。
 
 **⭐ 前后对比类：把"产品展示"放在痛点和爽点中间，坐实"因为它才变好"的因果（实测·叙事经验）**：痛点对比片别把产品展示堆在结尾——结尾展示只是"顺便给你看看货"，说服力弱。把**产品 showcase 放在 痛点→产品→爽点 的正中间**当因果枢纽，观众潜意识就把"变强 / 变好"归功于这个产品（问题 → 产品(因) → 结果(果)，因果咬死）。额外红利：A 整片演绎路线里，**中间这格产品镜还兼着"藏换装突变"的切口功能**（见 seedance2「产品插入格」破解法）——一举两得：既是卖点展示=因，又是换装的场景切换点。结尾只留短 CTA / 系列色快闪即可。
 
