@@ -26,7 +26,7 @@
 
 - **awesome-gpt-image-2**：github.com/freestylefly/awesome-gpt-image-2（在线 gpt-image2.canghe.ai）——506+ GPT Image 2 案例+模板，含产品电商/品牌Logo/海报/人物一致性卡/商业摄影。
 - **opennana**：opennana.com/awesome-prompt-gallery——1万+ 案例，覆盖 Nano Banana / GPT Image / Seedance 2.0。
-- **elementsix-skills / seedance-storyboard**：github.com/elementsix/elementsix-skills——Seedance 故事板模板+案例。⚠️方法与本技能 seedance2-multimodal.md 重复且本技能更深，只当模板参考库，不吸收方法。
+- **elementsix-skills / seedance-storyboard**：github.com/elementsix/elementsix-skills——Seedance 故事板模板+案例。⚠️方法与本技能 seedance2-multimodal.md 重复且本技能更深，只当模板参考库，不吸收方法。**（已逐文件深读确认：SKILL.md/quick-reference/10 示例全读，硬参数·@语法·故事板·运镜·救镜头·一镜到底全被我们更深覆盖，零方法增量。）**
 - **luban**（已装为独立技能）：github.com/LearnPrompt/luban-skill——打磨/审计技能本身用，不是做视频用。
 
 **处理原则**：用户贴来某条具体案例 → 按"有用的吸收、无用的舍弃"过筛（有方法增量才吸收，纯案例只当灵感）；图库整体不吸收，只记位置。
