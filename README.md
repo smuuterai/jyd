@@ -129,6 +129,7 @@ jyd/                                        # 仓库根目录
     hook-library.md                         # 12 种钩子模式 + 钩子运镜/音效
     ai-avatar.md                            # 数字人带货 · 防恐怖谷
     luxury-aesthetic.md                     # 高端/美妆/奢品克制美学
+    cinematic-effect-prompt-template.md     # 电影级特效片提示词模板（超速/时间静止等奇观）
   scripts/
     video_deconstruct.py                    # 抽帧、抽音频、转写、网格图预处理
     check_evals.py                          # 静态结构与 eval 样例体检
